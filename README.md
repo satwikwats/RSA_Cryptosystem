@@ -9,7 +9,7 @@ So, how this work is in the following way: the sender and reciever both have a p
 The public key is given to everyone publicly, but the private key is just known to these two. 
 And the encoded message will only get revealed by the private key, they both have to be inverse functions.
 
-                                         Cipher = PA(M) M is the message and PA is the public key
-                                         M = SA(Cipher) SA is the private key and M is the message
+                                   Cipher = PA(M) M is the message and PA is the public key
+                                    M = SA(Cipher) SA is the private key and M is the message
                                          
 This idea of encryption and decryption involves many other basic concepts that is covered in the above attached report.
